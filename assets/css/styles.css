@@ -1,0 +1,265 @@
+/*************************************************************/
+/* Stylesheet for homework Basic Portfolio                  */
+/*************************************************************/
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font: #777777;
+}
+html,body{
+    height: 100%;
+}
+hr{
+    width: 900px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 10px; 
+}
+.flex-container-index,.flex-container-contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin-bottom: -20px; 
+}
+.flex-container-index{
+    background-image: url('../images/memphis-mini.png');
+}
+.flex-container-contact{
+    background-image: url('../images/email-pattern.png');
+}
+header{
+    /*background-color: #ffffff;*/
+    border-bottom: 1px solid;
+    border-bottom-color: #cccccc;
+}
+table{
+    table-layout:fixed;
+    width: 100%;
+}
+#name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: #ffffff;
+    width: 250px;
+    height: 80px;
+    margin: auto;
+}
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    font-size: 15px;
+    top: 0;
+    float: right;
+    margin-right: 270px;
+    padding: 20px;  
+}
+a:link{
+    color: #777777;
+    text-decoration: none;
+    padding: 10px;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color:#4aaaa5;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+.clearfix{
+    color: #777777;
+    font-size: 18x;
+    overflow: auto;
+    border: 1px solid;
+    border-color: #dddddd;
+    width: 960px;
+    height: 400px;
+    background: #ffffff;    
+    margin: auto;
+}
+.footer{
+    border-top:8px solid #4aaaa5;
+    background-color: #666666;
+    color: #777777;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom:0;
+}
+.subheader{
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 20px;
+    float: left;
+    margin: 0px;
+}
+.profile{
+    float: left;
+    margin: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-overflow: clip;
+}
+form{
+    margin: 20px;
+    font-size: 15px;
+}
+.button{
+ font-size: 14px;
+ background-color: #4aaaa5;   
+ height: 40px;
+ width: 90px;
+ color: #ffffff;
+ border:none;
+}
+.wrapper{
+    position: relative;
+    float: left;
+    border: 1px;
+}
+.wrapperpy{
+    position: relative;
+    float: right;
+    border: 1px;
+}
+.text-block{
+    position: relative;
+    background-color:#4aaaa5;
+    color: #dddddd;
+    text-align: center;
+    left:30px;
+    top:40%;
+    padding: 10px;
+    width: 30%;
+}
+input,textarea{
+    width: 95%;
+    margin: 2px;
+    padding: 4px;
+}
+
+/*
+    These rules take effect when the browser's width
+    is either 980px or less
+*/
+@media screen and (max-width:980px){
+    nav{
+        margin-right: 10px;
+    } 
+    .clearfix{
+        color:red;
+        width: 820px;
+        height: 400px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 40px;
+    } 
+    hr{
+        width: 780px;
+        margin-left: 10px;
+    }
+    form{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    input,textarea{
+        width: 90%;
+    }
+}
+
+/*
+    These rules take effect when the browser's width
+    is either 768px or less
+*/
+@media screen and (max-width:768px){
+   nav{
+       margin-right: 10px;
+   }
+    .clearfix{
+        color:blue;
+        width: 720px;
+        height: 400px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 40px;
+    } 
+    hr{
+        width: 680px;
+        margin-left: 10px;
+    }
+    form{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    input,textarea{
+        width: 80%;
+    }
+}
+
+/*
+    These rules take effect when the browser's width
+    is either 640px or less
+*/
+@media screen and (max-width:640px){
+    #name{
+        width: 630px;
+    }
+    #table_id{
+        display: block;
+    }
+    #table_id td{
+        display: inline;
+        margin: auto;
+    }
+    nav{
+        margin-right: 200px;
+    }
+    form{
+        margin: 0px;
+    }
+   .clearfix{
+        color:magenta;
+        width: 520px;
+        height: 400px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+    .profile{
+        display: block;
+        float: none;
+        margin: 0 auto 10px !important; 
+    }
+    hr{
+        width: 400px;
+        margin-left: 10px;
+    }
+    form{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    input,textarea{
+        width: 60%;
+    }
+    .wrapperpy{
+        float: left;
+    }
+}   
