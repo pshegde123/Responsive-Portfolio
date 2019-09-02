@@ -166,14 +166,14 @@ input,textarea{
     } 
     .clearfix{
         color:red;
-        width: 820px;
+        width: 780px;
         height: 400px;
         margin-top:10px;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-right: 40px;
     } 
     hr{
-        width: 780px;
+        width: 720px;
         margin-left: 10px;
     }
     form{
@@ -195,14 +195,14 @@ input,textarea{
    }
     .clearfix{
         color:blue;
-        width: 720px;
+        width: 650px;
         height: 400px;
         margin-top:10px;
-        margin-left: 10px;
+        margin-left: 20px;
         margin-right: 40px;
     } 
     hr{
-        width: 680px;
+        width: 630px;
         margin-left: 10px;
     }
     form{
@@ -233,14 +233,14 @@ input,textarea{
         margin-right: 200px;
     }
     form{
-        margin: 0px;
+        margin: 20px;
     }
    .clearfix{
         color:magenta;
         width: 520px;
         height: 400px;
         margin-top:10px;
-        margin-left: 10px;
+        margin-left: 40px;
         margin-right: 40px;
     }
     .profile{
